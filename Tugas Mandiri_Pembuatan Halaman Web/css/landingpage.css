@@ -1,0 +1,61 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Century Gothic';
+    padding-left: 15px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+p {
+    font-size: 18px;
+}
+h1 {
+    font-size: 45px;
+    font-family: 'Tahoma';
+}
+
+#Logo {
+  height: 55px;
+  width: 200px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: none;
+  width: fit-content;
+  float: right;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(79, 79, 79);
+  text-decoration: underline
+}
+
+h3 {
+  font-family:Helvetica;
+}
+
+.splitpage {
+  display:flex; 
+  justify-content: space-between
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  margin-left: 15px;
+  background-color: #ff7e67;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #c99383;
+}

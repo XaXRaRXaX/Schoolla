@@ -1,0 +1,240 @@
+body {
+    background-color: rgba(170, 170, 170, 0.5);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container2 {
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+#section5 {
+    background-color: #ffff;
+    height: fit-content;
+    box-shadow: 0px 5px 9px 0px rgba(46, 46, 46, 0.336);
+}
+.navbar {
+  overflow: hidden;
+  background-color: none;
+  width: fit-content;
+  float: right;
+  height: 60px;
+  margin-left: 30px;
+  display: flex;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #0988d0;
+  text-decoration: underline;
+  color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(46, 46, 46, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #07689f;
+  color: white
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 17px;
+    border-color: rgba(77, 77, 77, 0.288);
+    height: 25px;
+  }
+
+  .topnav input[type=text]:hover {
+    border: 2px solid;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ffff;
+    font-size: 17px;
+    border-color: rgba(77, 77, 77, 0.288);
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    border: 2px solid;
+  }
+  
+
+  #ddprofile #dropprofile {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    margin: 0;
+  }
+
+  #dropprofile-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(46, 46, 46, 0.2);
+    z-index: 1;
+  }
+  #dropprofile-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  #dropprofile-content a:hover {
+    background-color: #07689f;
+    color: white;
+    text-decoration: underline;
+  }
+  #ddprofile:hover #dropprofile-content {
+    display: block;
+  }
+
+#left {
+    width: 20%;
+}
+
+#middle {
+    width: 60%;
+}
+
+#right {
+    width: 20%;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    box-shadow: 8px 8px 16px 8px rgba(46, 46, 46, 0.2);
+  }
+
+/* Photos styles */
+.photos {
+    margin-top: 50px;
+    }
+    
+    .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    }
+    
+    .photo-item img {
+    width: 100%;
+    height: auto;
+    }
+
+#mutual button {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px;
+  width: 70px;
+  height: fit-content;
+  align-self: center;
+  background-color: white;
+}
+
+#mutual button:hover {
+  background-color: #0988d0;
+  color: white;
+}
+
+#edit_profile button {
+  text-decoration: none;
+  border: 1px solid;
+  margin-left: 100px;
+  margin-top: 20px;
+  height: 40px;
+  width: 150px;
+  align-self: center;
+  background-color: white;
+}
+
+#edit_profile button:hover {
+  background-color: #0988d0;
+  color: white;
+}
+
+#mutual_friend button {
+  text-decoration: none;
+  padding: 10px;
+  width: 200px;
+  height: fit-content;
+  align-self: center;
+  background-color: white;
+  border: none;
+  text-align: left;
+}
+
+#mutual_friend button:hover {
+  background-color: #0988d0;
+  color: white;
+}

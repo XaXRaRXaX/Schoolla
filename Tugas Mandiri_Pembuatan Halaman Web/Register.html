@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Schoolla</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Gambar/Icon Website.jpg" rel="shortcut icon">
+        <link href="css/verification.css" rel="stylesheet">
+        <script src="Javascript/register.js"></script>
+    </head>
+    <body> 
+	<div class="container">
+		<h1>Sign Up</h1>
+		<form method="post" action="home.html" enctype="multipart/form-data">
+			<center><div class="form-group">
+				<label>Profile Photo:</label>
+				<img id="profile-photo" src="Gambar/default-profile-photo.png" width="200px" height="200px" style="border-radius: 100%;"><br>
+				<input type="file" id="photo-input" onchange="previewProfilePhoto(this)" style="height: 0%; width:0%;">
+				<label for="photo-input">Insert profile photo</label>
+			</div></center>
+			<h2>Personal Information</h2>
+			<div class="form-group">
+				<input type="text" name="first-name" id="first-name" placeholder="First name" minlength="3" required>
+			</div>
+			<div class="form-group">
+				<input type="text" name="last-name" id="last-name"  placeholder="Last name" minlength="3" required>
+			</div>
+			<div class="form-group">
+				<input type="email" name="email" id="email" placeholder="Email" required>
+			</div>
+			<div class="form-group">
+				<label for="birth-date">Birth Date:</label>
+				<input type="date" name="birth-date" id="birth-date" required>
+			</div>
+			<div class="form-group">
+				<label for="sex">Sex:</label>
+				<input type="radio" name="sex" id="male" value="male" required>Male
+				<input type="radio" name="sex" id="female" value="female">Female
+			</div>
+			<div class="form-group">
+				<textarea name="address" id="address" placeholder="Address" required></textarea>
+			</div>
+			<div class="form-group">
+				<input type="tel" name="phone-number" id="phone-number"  placeholder="Phone Number" pattern="[0-9]+" required>
+			</div>
+			<h2>Account Information</h2>
+			<div class="form-group">
+				<input type="password" name="password" id="password" placeholder="password" minlength="8" required>
+			</div>
+			<div class="form-group">
+				<input type="password" name="confirm-password" id="confirm-password" placeholder="confirm password" minlength="8" required>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Sign Up">
+			</div>
+		</form>
+	</div>
+	<div class="container">
+		<div class="form-group">
+			<p>Already have an account? <a href="login.html">Login</a></p>
+		</div>
+	</div>
+    </body>
+</html>
